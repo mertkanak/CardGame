@@ -27,3 +27,22 @@ for number in (0...100) {
         print(number)
     }
 }
+
+//Second Solution
+
+func fizzBuzz() {
+    for i in 1...100 {
+        if i % 3 == 0 && i % 5 == 0 {
+            print("FIZZBUZZ   \(i)")
+        } else if i % 3 == 0 {
+            print("FIZZ  \(i)")
+        } else if i % 5 == 0 {
+            print("BUZZ  \(i)")
+        } else {
+            print("NONE  \(i)")
+        }
+    }
+}
+
+fizzBuzz()
+
